@@ -5,7 +5,7 @@ class ScholdocCiteproc < Formula
   include Language::Haskell::Cabal
 
   homepage "https://github.com/timtylin/scholdoc-citeproc"
-  url "https://hackage.haskell.org/package/pandoc-citeproc-0.6/pandoc-citeproc-0.6.tar.gz"
+  url "https://hackage.haskell.org/package/scholdoc-citeproc-0.6/scholdoc-citeproc-0.6.tar.gz"
   sha1 "27a88b5dd1637e95096d828e779738771e08e02d"
 
   depends_on "ghc" => :build
