@@ -16,9 +16,9 @@ class Scholdoc < Formula
 
   def install
     cabal_sandbox do
-      cabal_install "hsb2hs cpphs"
+      cabal_install "hsb2hs", "cpphs"
       cabal_install "--only-dependencies"
-      cabal_install "--prefix=#{prefix} -fembed_data_files --ghc-options \"-pgmPcpphs -optP--cpp\""
+      cabal_install "--prefix=#{prefix}", "-fembed_data_files", "--ghc-options \"-pgmPcpphs -optP--cpp\""
     end
     cabal_clean_lib
   end
