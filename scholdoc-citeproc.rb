@@ -17,9 +17,9 @@ class ScholdocCiteproc < Formula
 
   def install
     cabal_sandbox do
-      cabal_install "hsb2hs", "cpphs"
       cabal_install "--only-dependencies"
-      cabal_install "--prefix=#{prefix}", "-fembed_data_files", "--ghc-option=-pgmPcpphs", "--ghc-option=-optP--cpp", "--enable-executable-stripping"
+      cabal_install "--prefix=#{prefix}"
+      system "strip", "-u", "-r", "-arch", "all", "#{prefix}/bin/scholdoc"
     end
     cabal_clean_lib
   end
