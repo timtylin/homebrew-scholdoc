@@ -19,7 +19,7 @@ class ScholdocCiteproc < Formula
     cabal_sandbox do
       cabal_install "--only-dependencies"
       cabal_install "--prefix=#{prefix}"
-      system "strip", "-u", "-r", "-arch", "all", "#{prefix}/bin/scholdoc"
+      system "strip", "-u", "-r", "-arch", "all", "#{prefix}/bin/scholdoc-citeproc"
     end
     cabal_clean_lib
   end
