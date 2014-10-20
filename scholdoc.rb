@@ -8,6 +8,14 @@ class Scholdoc < Formula
   url "https://hackage.haskell.org/package/scholdoc-0.1.3/scholdoc-0.1.3.tar.gz"
   sha1 "bae21ae9904bd9740f724f2b9d0c6e211c3db2bf"
 
+  bottle do
+    root_url 'http://scholarlymarkdown.com/homebrew'
+    sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :yosemite
+    sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :mavericks
+    sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :mountain_lion
+    sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :lion
+  end
+
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
   depends_on "gmp"
