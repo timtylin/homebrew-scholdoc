@@ -10,6 +10,7 @@ class Scholdoc < Formula
 
   bottle do
     root_url 'http://scholarlymarkdown.com/homebrew'
+    sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :el_capitan
     sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :yosemite
     sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :mavericks
     sha1 "90e22f2b67e3ae393b0301079b52f5c27b8fd271" => :mountain_lion
