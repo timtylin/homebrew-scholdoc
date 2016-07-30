@@ -6,15 +6,15 @@ class ScholdocCiteproc < Formula
 
   homepage "https://github.com/timtylin/scholdoc-citeproc"
   url "https://hackage.haskell.org/package/scholdoc-citeproc-0.6/scholdoc-citeproc-0.6.tar.gz"
-  sha1 "27a88b5dd1637e95096d828e779738771e08e02d"
+  sha256 "94c2695699811dfdc84a4fb4352bda5d5086134d92695cd0c2ec8f913267c873"
 
   bottle do
     root_url 'http://scholarlymarkdown.com/homebrew'
-    sha1 "a9f2e7a0bf621c7358d5171b563dcd64790b72f1" => :el_capitan
-    sha1 "a9f2e7a0bf621c7358d5171b563dcd64790b72f1" => :yosemite
-    sha1 "a9f2e7a0bf621c7358d5171b563dcd64790b72f1" => :mavericks
-    sha1 "a9f2e7a0bf621c7358d5171b563dcd64790b72f1" => :mountain_lion
-    sha1 "a9f2e7a0bf621c7358d5171b563dcd64790b72f1" => :lion
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :el_capitan
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :yosemite
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :mavericks
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :mountain_lion
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :lion
   end
 
   depends_on "ghc" => :build
