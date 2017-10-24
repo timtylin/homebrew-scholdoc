@@ -10,6 +10,8 @@ class ScholdocCiteproc < Formula
 
   bottle do
     root_url 'http://scholarlymarkdown.com/homebrew'
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :high_sierra
+    sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :sierra
     sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :el_capitan
     sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :yosemite
     sha256 "f878b8493ca51f05ff7485240afa69e2982ac5b491fa66cc3b87e6c981c4a3c3" => :mavericks
