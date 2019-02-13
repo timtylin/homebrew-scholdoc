@@ -24,8 +24,6 @@ class ScholdocCiteproc < Formula
   depends_on "gmp"
   depends_on "scholdoc" => :recommended
 
-  fails_with(:clang) { build 425 } # clang segfaults on Lion
-
   def install
     cabal_sandbox do
       cabal_install "--only-dependencies"
